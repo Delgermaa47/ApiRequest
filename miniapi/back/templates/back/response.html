@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+{% load static %}
+{% block content %}
+
+<section class="container mt-4">
+  <div class="border border-primary">
+    <div class="d-flex justify-content-center p-4">
+      <div class="col-md-2">
+            <label>STATUS CODE</label>
+            <h1>{{status}}</h1>
+      </div>
+      <div class="col-md-10">
+        <p>{{response}}</p>
+      </div>
+  
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+
